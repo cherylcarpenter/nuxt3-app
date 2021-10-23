@@ -2,11 +2,12 @@
   "private": true,
   "scripts": {
     "backend": "npx netlify-cms-proxy-server",
-    "dev": "node content/index.js && nuxt dev",
+    "dev": "node content/index.js && nuxt dev && tailwind-config-viewer",
     "build": "nuxt build",
     "start": "node .output/server/index.mjs",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "tailwind-config-viewer": "tailwind-config-viewer -o"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
@@ -14,11 +15,17 @@
     "@storybook/addon-essentials": "^6.3.12",
     "@storybook/addon-links": "^6.3.12",
     "@storybook/vue3": "^6.3.12",
+    "@tailwindcss/forms": "^0.3.4",
+    "autoprefixer": "^10.3.7",
     "babel-loader": "^8.2.3",
     "front-matter-markdown": "^0.4.5",
     "netlify-cms-app": "^2.15.54",
     "nuxt3": "latest",
+    "postcss": "^8.3.11",
     "sass": "^1.43.3",
+    "sass-loader": "^12.2.0",
+    "tailwind-config-viewer": "^1.6.2",
+    "tailwindcss": "^2.2.17",
     "vue-loader": "^16.8.1"
   },
   "dependencies": {
