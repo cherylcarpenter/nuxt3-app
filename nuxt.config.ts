@@ -19,10 +19,13 @@ export default defineNuxtConfig({
     postcss: {
       postcssOptions: {
         plugins: {
+          "postcss-import": {},
           tailwindcss: {},
           autoprefixer: {},
         },
       },
     },
   },
+  buildDir: "nuxt-build",
+  css: ["@/assets/scss/tailwind.scss"],
 });
