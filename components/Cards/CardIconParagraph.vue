@@ -10,7 +10,6 @@
       <p class="">{{ box.body }}</p>
     </div>
   </div>
-  {{ box }}{{ icon }}
 </template>
 
 <script>
