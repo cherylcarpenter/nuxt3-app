@@ -7,7 +7,7 @@ const plugin = require("tailwindcss/plugin");
 module.exports = {
   mode: "jit",
   purge: {
-    enabled: false,
+    enabled: true,
     content: [
       // default
       `./components/**/*.{vue,js}`,

@@ -4,7 +4,7 @@
   </div>
 </template>
 <style lang="scss">
-@import "/assets/scss/tailwind.scss";
+// @import "/assets/scss/tailwind.scss";
 </style>
 <script>
 export default {
