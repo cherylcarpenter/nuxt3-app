@@ -9,7 +9,7 @@
     "lint:js": "eslint --ext \".js,.vue\" ",
     "lint:style": "stylelint \"**/*.scss\" --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style",
-    "serve": "node nuxt-build/server/index.mjs",
+    "serve": "node .output/server/index.mjs",
     "storybook": "start-storybook -p 6006 -s ./public,./assets && postcss:watch",
     "build-storybook": "yarn postcss:prod && build-storybook",
     "tw:config": "tailwind-config-viewer -o",
