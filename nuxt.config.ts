@@ -26,6 +26,5 @@ export default defineNuxtConfig({
       },
     },
   },
-  buildDir: "nuxt-build",
   css: ["@/assets/scss/tailwind.scss"],
 });
